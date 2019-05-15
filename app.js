@@ -37,5 +37,13 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+const db = require('./Database');
+
+// db.getUsers()
+//   .then(users => {
+    
+//   })
+//   .catch(err => console.log(err));
+
 //app.listen(3000);
 module.exports = app;
