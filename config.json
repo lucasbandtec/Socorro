@@ -1,0 +1,14 @@
+{
+    "database": {
+        "server": "safetybd.database.windows.net",
+        "user": "bandtec",
+        "password": "Projeto@safety",
+        "database": "safetybd",
+        "options": {
+            "encrypt": true
+        }
+    },
+    "security": {
+        "key": "CHAVE_SEGURANCA"
+    }
+}
