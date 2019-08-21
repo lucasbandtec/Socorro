@@ -1,0 +1,18 @@
+sintegra
+inscrição estadual
+receita federal -cpf e cnpj
+pesquisar api que retorna um json 
+------------------------------------------------------------------------------------------------------------------
+pyInstaller AutomateEmail.py -i file_cabinet_22160.ico
+------------------------------------------------------------------------------------------------------------------
+geração dos processadores
+atualizar planilha
+pegar o patrimonio de todas as maquinas e abrir um chamado para saber quantas parcelas foram pagas 
+------------------------------------------------------------------------------------------------------------------
+Bi Helton
+------------------------------------------------------------------------------------------------------------------
+macro da sofi:
+criar um layout bonito com entradas de campos e gerar um txt sem quebra de linhas
+
+91acbe3f2b0298d462f8c7629c204ac35a81d650995829883c1bbb99716bcde3
+https://receitaws.com.br/api
