@@ -1,0 +1,69 @@
+O que é o protocolo HTTP?
+	R: É o protocolo de comunicação mais usado no mundo todo.
+	R: Protocolo de comunicação usado entre dois sistemas.
+------------------------------------------------------------------------------------------------------------------------
+O Protocolo HTTP nos permite retornar qualquer tipo de informação na resposta. E o Spring Boot da suporte a isso.
+Considere que precisamos retornar algum dado na resposta. Se o dado que retornamos está no formato abaixo:
+{ 
+	"nome": "Rodrigo",
+	"idade": 39,
+	"sexo": "M"
+}
+	R: Essa resposta está no formato JSON, e o objeto java usado para monta-la possui 3 campos: nome, sexo e idade.
+------------------------------------------------------------------------------------------------------------------------
+Qual o modelo da aplicação que estamos criando no curso de programação web?
+	R: Backend
+------------------------------------------------------------------------------------------------------------------------
+Algo sobre requisição HTTP
+	R: Header
+	   Verbo (ou método)
+	   Corpo ( ou Body )
+	   URL
+------------------------------------------------------------------------------------------------------------------------
+Associe cada verbo HTTP à sua utilidade:
+POST: Usado para enviar informações ao servidor
+PUT : Usado para atualizar informações existentes
+DELETE: Usado para remover recursos do servidor
+GET: Usado para obter informações do servidor
+------------------------------------------------------------------------------------------------------------------------
+uma requisição HTTP possui partes que sempre são obrigatorias, enquanto outras devem ser utilizadas de acordo com o 
+verbo que está se empregando no momento. As partes que são obrigatórias em qualquer requisição HTTP são: 
+	R: VERBO E URL, enquanto que HEADER E BODY podem nao ser necessarias
+------------------------------------------------------------------------------------------------------------------------
+utilizamos, alguns campos na requisição e na resposta passam a ser obrigatorios, senão a mensagem não vai fazer muito 
+sentido.
+Selecione abaixo, de acordo com o verbo, qual o conjunto de campos obrigatorio, seja na requisição ou na resposta:
+GET - Requisição: ?
+POST - Requisição: Verbo - URL - Header - Body
+GET - Resposta:  Status Code - Body
+POST - Resposta: Status Code
+------------------------------------------------------------------------------------------------------------------------
+O protocolo HTTP é utilizado normalmente para dois personagens. 
+Esses sao o [CLIENTE] e o [SERVIDOR]. Ambos devem possuir acesso a [INTERNET]
+------------------------------------------------------------------------------------------------------------------------
+Quais são as 2 partes que caracterizam o protocolo HTTP?
+	R: equisi o resposta
+------------------------------------------------------------------------------------------------------------------------
+Uma resposta HTTP possui 2 partes, sendo que uma delas é obrigatoria e a outra, não. entende-se como obrigatorio o
+[STATUS CODE], e o [BODY], não. O [STATUS CODE] representa uma informação padrão, usada por todo os sistemas que usam o 
+protocolo HTTP, enquanto o [BODY] é livre.
+------------------------------------------------------------------------------------------------------------------------
+O Sprint Boot possui um objeto ResponseEntity, responsavel por retornar a resposta de uma requisição HTTP, completando
+o ciclo requisição/resposta.Quando precisamos retornar uma resposta no corpo da mensagem, Precisamos informar, no 
+cabeçalho do método, o tipo da resposta que irá no corpo, Esse tipo é descrito entre os caracteres "<" e ">". Entretanto,
+no método acima, essa informação precisa ser inserida.
+Qual é o tipo que devemos inserir para que o método compile e funcione?
+	R: String
+------------------------------------------------------------------------------------------------------------------------
+Codigo:
+@RESTCONTROLLER
+public class loginController{
+	@POSTMAPPING("/login")
+	@REQUESTBODY
+}
+------------------------------------------------------------------------------------------------------------------------
+o SPRINT BOOT é uma ferramenta que permite a cotnrução rápida de aplicações [JAVA]. Para isso, ele se baseia no
+[MAVEN] como ferramenta de build. Para criarmos uma aplicação baseada nessa ferramenta, precisamos apenas acessar o site
+http://start.spring.io, determinar o pacote de nossa aplicação, o nome dela e as suas principais dependências.O site nos
+fornecerá um arquivo zip com o nosso projeto, e ele poderá ser aberto em qualquer ide que suporte projetos com a estrutura
+padrão do maven, como o [ECLIPSE].
