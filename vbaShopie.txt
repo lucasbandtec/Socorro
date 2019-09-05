@@ -1,0 +1,41 @@
+[c:link label=este link url=https://novaintranet.stefanini.com/ target=_blank]
+
+ 
+
+ 
+
+Ansioso pelo crédito de benefícios, não é mesmo!? (Quem nunca! )[c:newline][c:newline]Vamos lá![c:newline]A data de crédito dos benefícios de vale transporte, vale refeição, vale alimentação e vale combustível ocorre até o dia 1º de cada mês. A empresa por liberalidade, pode disponibilizar o crédito nos cartões alguns dias antes. Mas a data certinha mesmo é no dia 1º para utilização dentro do mês corrente.[c:newline][c:newline]Agora, se você é um novo profissional do grupo (primeiro seja bem vindo ao nosso time), a data do primeiro crédito de benefícios acontece em até 10 úteis a contar da data de admissão. Fique ligado, o crédito será feito em conta corrente no primeiro mês.
+
+ 
+
+[s:setvar name=assunto value=Orientação data de crédito benefícios.]
+
+ 
+
+ 
+
+[s:setvar name=descricao value=Profissional solicita informação sobre a data de crédito dos benefícios.]
+
+ 
+
+ 
+
+[s:setvar name=solucao value=A data de crédito dos benefícios de vale transporte, vale refeição, vale alimentação e vale combustível ocorre até o dia 1º de cada mês. A empresa por liberalidade, pode disponibilizar o crédito nos cartões alguns dias antes. Mas a data certinha mesmo é no dia 1º para utilização dentro do mês corrente.##Agora, se você é um novo profissional do grupo (primeiro seja bem vindo ao nosso time), a data do primeiro crédito de benefícios acontece em até 10 úteis a contar da data de admissão. Fique ligado, o crédito será feito em conta corrente no primeiro mês.]
+
+ 
+
+ 
+
+[s:setvar name=tipo value=REQUISICAO]
+
+ 
+
+[s:setvar name=categoria value=REQUISICAO::DEPARTAMENTO PESSOAL::VALE COMBUSTIVEL::VALE COMBUSTIVEL::VALOR DE RECARGA::DUVIDA-INFORMACAO]
+
+ 
+
+[s:setvar name=grupo value=ATENDENTES]
+
+ 
+
+[s:redirect rule=ClosedTicketFlow]
