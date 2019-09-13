@@ -1,0 +1,11 @@
+#Texto
+[s:setvar name=assunto value=#Assunto]
+[s:setvar name=descricao value=#Descricao]
+[s:setvar name=solucao value=#Solucao]
+[s:setvar name=tipo value=#Tipo]
+[s:setvar name=categoria value=#Categoria]
+[s:setvar name=grupo value=#Grupo]
+
+ 
+
+[s:redirect rule=ClosedTicketFlow]
